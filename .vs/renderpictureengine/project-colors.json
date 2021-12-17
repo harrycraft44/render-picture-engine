@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff2ae437-666a-4d0e-ac05-7966db2f5be2": {
+      "ProjectGuid": "ff2ae437-666a-4d0e-ac05-7966db2f5be2",
+      "DisplayName": "renderpictureengine",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

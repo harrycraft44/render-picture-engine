@@ -1,0 +1,4 @@
+speed=20
+start=0,0
+size=200,200
+image=\GameData\Images\example.jpg

@@ -1,0 +1,5 @@
+// 0 AnchorStyles.None, 1 AnchorStyles.Top , 4 AnchorStyles.Left ,8 AnchorStyles.Right, 2 AnchorStyles.Bottom
+//no empty lines 
+//name, posx,posy,scalex,scaley,image,backgroundcolor,anchor int
+test,50,50,50,50,none,black,1
+test,250,250,50,50,\GameData\Images\example.jpg,black,8

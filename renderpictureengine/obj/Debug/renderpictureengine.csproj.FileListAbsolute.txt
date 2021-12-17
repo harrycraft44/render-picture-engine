@@ -1,0 +1,10 @@
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\bin\Debug\renderpictureengine.exe.config
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\bin\Debug\renderpictureengine.exe
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\bin\Debug\renderpictureengine.pdb
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.csproj.AssemblyReference.cache
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.Properties.Resources.resources
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.csproj.GenerateResource.cache
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.csproj.CoreCompileInputs.cache
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.exe
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.pdb
+C:\Users\harry\source\repos\renderpictureengine\renderpictureengine\obj\Debug\renderpictureengine.Form1.resources

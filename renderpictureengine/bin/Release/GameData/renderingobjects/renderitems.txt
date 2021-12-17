@@ -1,0 +1,3 @@
+// 0 AnchorStyles.None, 1 AnchorStyles.Top , 4 AnchorStyles.Left ,8 AnchorStyles.Right, 2 AnchorStyles.Bottom
+//no empty lines 
+//name, posx,posy,scalex,scaley,image,backgroundcolor,anchor int
