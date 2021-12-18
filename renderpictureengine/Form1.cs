@@ -72,7 +72,7 @@ namespace renderpictureengine
                     }
                     picture.BackColor = Color.FromName(dat[6].ToString());
                     picture.BackgroundImageLayout = ImageLayout.Stretch;
-
+                    picture.AccessibleDescription = dat[8];
                     switch (int.Parse(dat[7])) {
                         case 0:
                             picture.Anchor = AnchorStyles.None;
@@ -104,14 +104,32 @@ namespace renderpictureengine
             }  
   
         }
+        private bool c() {
+            foreach (Control i in this.Controls) {
+                if (i.AccessibleDescription == "true") {
+                    if (i.Bounds.IntersectsWith(player.Bounds)) {
+                        return false;
+                    }
+                
+                }
+            }
 
+
+            return true;
+        }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.W)
             {
                 if (!player.Bounds.IntersectsWith(pictureBox1.Bounds))
                 {
+
                     player.Top -= playerspeed;
+                    if (!c())
+                    {
+                        player.Top += playerspeed;
+
+                    }
 
                 }
 
@@ -121,7 +139,11 @@ namespace renderpictureengine
                 if (!player.Bounds.IntersectsWith(pictureBox2.Bounds))
                 {
                     player.Top += playerspeed;
+                    if (!c())
+                    {
+                        player.Top -= playerspeed;
 
+                    }
                 }
 
             }
@@ -131,7 +153,11 @@ namespace renderpictureengine
                 {
 
                     player.Left -= playerspeed;
+                    if (!c())
+                    {
+                        player.Left += playerspeed;
 
+                    }
 
                 }
 
@@ -143,7 +169,11 @@ namespace renderpictureengine
                 {
 
                     player.Left += playerspeed;
+                    if (!c())
+                    {
+                        player.Left -= playerspeed;
 
+                    }
                 }
             }
         }
